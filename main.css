@@ -1,0 +1,45 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 40px 10px;
+  background: rgb(49, 49, 49);
+}
+
+#parentBox {
+  width: 50vw;
+  height: 30vh;
+  background-color: blue;
+  margin: auto;
+  border-radius: 3px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(102, 102, 102);
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: ease-in-out 300ms;
+}
+
+.btn:hover {
+  background-color: rgb(121, 121, 121);
+}
